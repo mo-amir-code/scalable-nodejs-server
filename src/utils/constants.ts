@@ -1,0 +1,30 @@
+
+const ACCESS_TOKEN_EXPIRY_TIME = "2d";
+const REFRESH_TOKEN_EXPIRY_TIME = "8d";
+
+const SINGLE_DAY_IN_NUMBERS = 1000 * 60 * 60 * 24;
+
+const COOKIE_AGE_8_DAY = 8 * 24 * 60 * 60 * 1000;
+const COOKIE_AGE_2_DAY = 2 * 24 * 60 * 60 * 1000;
+
+const ACCESS_TOKEN_NAME = "accesstoken";
+const REFRESH_TOKEN_NAME = "refreshtoken";
+
+// REDIS KEYS NAME
+const TOTAL_WORKERS_KEY = "total-workers"
+const ACTIVE_WORKERS_KEY = "active-workers"
+const QUEUE_TASKS_KEY = "queued-tasks"
+
+
+export {
+    ACCESS_TOKEN_EXPIRY_TIME,
+    REFRESH_TOKEN_EXPIRY_TIME,
+    SINGLE_DAY_IN_NUMBERS,
+    COOKIE_AGE_2_DAY,
+    COOKIE_AGE_8_DAY,
+    ACCESS_TOKEN_NAME,
+    REFRESH_TOKEN_NAME,
+    TOTAL_WORKERS_KEY,
+    ACTIVE_WORKERS_KEY,
+    QUEUE_TASKS_KEY
+}
